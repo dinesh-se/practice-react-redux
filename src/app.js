@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Indecision from './components/Indecision';
+import './style/styles.css';
 
 ReactDOM.render(<Indecision />, document.getElementById('app'));
 
