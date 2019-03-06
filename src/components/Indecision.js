@@ -4,6 +4,7 @@ import Options from './Options';
 import Action from './Action';
 import Header from './Header';
 import DecisionModal from './DecisionModal';
+import Footer from './Footer';
 
 export default class Indecision extends React.Component {
     state = {
@@ -92,6 +93,7 @@ export default class Indecision extends React.Component {
                         <AddOption addOption={this.addOption} />
                     </section>
                 </section>
+                <Footer></Footer>
                 <DecisionModal
                     selectedOption={this.state.selectedOption}
                     closeDecisionModal={this.closeDecisionModal}

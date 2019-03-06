@@ -1,0 +1,9 @@
+.footer {
+  @extend .header;
+  text-align: center;
+  margin: 0;
+
+  a {
+    color: $shade-white;
+  }
+}
